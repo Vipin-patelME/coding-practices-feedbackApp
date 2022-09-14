@@ -12,7 +12,7 @@ class Feedback extends Component {
       <div className="bg-container">
         <div className="card-container">
           <h1 className="heading">
-            How satishfied are you with our customer support performance?
+            How satishfied are you with our customer support performance
           </h1>
           <ul className="emoji-container">
             {emojis.map(eachEmoji => (
