@@ -14,11 +14,11 @@ class Feedback extends Component {
           <h1 className="heading">
             How satishfied are you with our customer support performance?
           </h1>
-          <div className="emoji-container">
+          <ul className="emoji-container">
             {emojis.map(eachEmoji => (
               <EmojiList eachEmoji={eachEmoji} key={eachEmoji.id} />
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     )
