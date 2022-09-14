@@ -5,7 +5,7 @@ const EmojiList = props => {
   const {name, imageUrl} = eachEmoji
   return (
     <li className="emoji-item">
-      <img src={imageUrl} alt="Emoji" className="emoji-style" />
+      <img src={imageUrl} alt={name} className="emoji-style" />
       <p className="paragraph">{name}</p>
     </li>
   )
