@@ -1,0 +1,13 @@
+.emoji-item {
+  height: 50px;
+  width: 70px;
+}
+.emoji-style {
+  height: 50px;
+  width: 50px;
+}
+.paragraph {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: 510;
+}
